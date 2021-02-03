@@ -173,7 +173,7 @@ window.onload = function () {
     // }
 
     function timeRefresh(){
-    timeFetcher("http://worldtimeapi.org/api/timezone/America/New_York", nyTime)
+    timeFetcher("https://worldtimeapi.org/api/timezone/America/New_York", nyTime)
     timeFetcher("http://worldtimeapi.org/api/timezone/Europe/Paris", parisTime)
     timeFetcher("http://worldtimeapi.org/api/timezone/Europe/London", lonTime)
     timeFetcher("http://worldtimeapi.org/api/timezone/Asia/Kolkata", ndTime)
