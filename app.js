@@ -174,12 +174,12 @@ window.onload = function () {
 
     function timeRefresh(){
     timeFetcher("https://worldtimeapi.org/api/timezone/America/New_York", nyTime)
-    timeFetcher("http://worldtimeapi.org/api/timezone/Europe/Paris", parisTime)
-    timeFetcher("http://worldtimeapi.org/api/timezone/Europe/London", lonTime)
-    timeFetcher("http://worldtimeapi.org/api/timezone/Asia/Kolkata", ndTime)
-    timeFetcher("http://worldtimeapi.org/api/timezone/Asia/Tokyo", tokTime)
-    timeFetcher("http://worldtimeapi.org/api/timezone/Asia/Hong_Kong", hkTime)
-    timeFetcher("http://worldtimeapi.org/api/timezone/Asia/Dubai", dubTime)
+    timeFetcher("https://worldtimeapi.org/api/timezone/Europe/Paris", parisTime)
+    timeFetcher("https://worldtimeapi.org/api/timezone/Europe/London", lonTime)
+    timeFetcher("https://worldtimeapi.org/api/timezone/Asia/Kolkata", ndTime)
+    timeFetcher("https://worldtimeapi.org/api/timezone/Asia/Tokyo", tokTime)
+    timeFetcher("https://worldtimeapi.org/api/timezone/Asia/Hong_Kong", hkTime)
+    timeFetcher("https://worldtimeapi.org/api/timezone/Asia/Dubai", dubTime)
     }
 
     setInterval(timeRefresh, 1000)
